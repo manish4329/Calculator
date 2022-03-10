@@ -12,6 +12,7 @@ export default function Display({data,result}) {
         value={data}
         id="myBox"
         rows="2"
+        readOnly
       ></textarea>
       <textarea
         className="form-control"
